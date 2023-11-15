@@ -1,0 +1,276 @@
+.logost{
+    width: 50px;
+    height: 50px;
+    margin-left: 27px;
+}
+.btn1{
+    border-radius: 20px;
+    width: 5em;
+    height: 2em;
+    margin-left: 1em;
+    background-color: white;
+}
+.btn2{
+    border-radius: 20px;
+    width: 6em;
+    height: 2em;
+    background-color: black;
+    color: white;
+}
+.fbody{
+    width: 100%;
+    max-width: 1550px;
+}
+
+.locimg{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 9px;
+
+}
+.words{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.find{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 7px;
+    color: black;
+    padding-left: 14px;
+
+}
+.sbcups{
+    width: 100%;
+    height: 100%;
+}
+.sections{
+    display: flex;
+    padding: 40px;
+    padding-bottom: 0px;
+    
+    
+}
+.lsidepart1{
+    background-color:#006241;
+    width: 50%;
+    height: 625px;
+
+}
+.rsidepart1{
+    background-color:#006241;
+    width: 50%;
+    height: 625px;
+
+}
+.innerrs{
+   max-width: 83%; 
+      height: 50%;
+      top: 25%;
+      margin: 0 auto;
+      position: relative;
+      padding: 21px;
+}
+.heading{
+    color: white;
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.para1{
+    color: white;
+    font-size: 24px;
+}
+.parasmall{
+    color: white;
+    font-size: 19px;
+}
+
+.favbtn{
+    border-radius: 20px;
+    width: 11em;
+    height: 2.2em;
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    font-weight: bolder;
+    border-width: 1px;
+
+} 
+.lsidepart2{
+    background-color:#ec4c40;
+    width: 50%;
+    height: 420px;
+
+}
+.rsidepart2{
+    background-color:#006241;
+    width: 50%;
+    height: 420px;   
+
+}
+.heading2{
+    color: white;
+    font-size:28px;
+    letter-spacing: 1px;
+    padding-bottom: 16px;
+}
+.lsidepart3{
+    background-color:#b37697;
+    width: 50%;
+    height: 625px;
+
+}
+.rsidepart3{
+    background-color: #b37697;
+    width: 50%;
+    height: 625px;
+
+}
+.lsidepart4{
+    background-color:#1e3932;
+    width: 50%;
+    height: 625px;
+
+}
+.orderbtn{
+    border-radius: 20px;
+    width: 7em;
+    height: 2.2em;
+    background-color: transparent;
+    color:white;
+    border-color: white;
+    border-style: solid;
+    font-weight: bolder;
+    border-width: 1px;
+
+}
+.rsidepart5{
+    background-color:#dc0032;
+    width: 50%;
+    height: 625px;
+}
+.lsidepart6{
+    background-color:#006241;
+    width: 50%;
+    height: 420px;
+
+}
+.conditions{
+    padding: 30px;
+    text-align: center;
+}
+.ftrhead{
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 1px;
+}
+.section2 ul{
+    float: left;
+    line-height: 50px;
+}
+li{
+    
+    list-style: none;
+    
+}
+.webaddress{
+    color: black;
+}
+.footlogos li{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    padding: 30px;
+}
+
+.foot{
+    margin-left: -20px;
+}
+.notice li{
+display: inline-block;
+margin: 10px ;
+}
+.notice{
+    margin-left: 27px;
+    margin-top: 44px;
+}
+.section2{
+    display: flex;
+    padding: 40px;
+
+
+}
+
+
+
+    @media (max-width: 768px) {
+        .sections {
+          display: block;
+        }
+      
+        .lsidepart1 {
+          width: 100%;
+          height: 50%;
+        }
+        .rsidepart1{
+            width: 100%;
+            height: 50%;
+        }
+        .lsidepart2 {
+            width: 100%;
+            height: 50%;
+          }
+          .rsidepart2{
+              width: 100%;
+              height: 50%;
+          }
+          .lsidepart3 {
+            width: 100%;
+            height: 50%;
+          }
+          .rsidepart3{
+              width: 100%;
+              height: 50%;
+          }
+          .lsidepart4 {
+              width: 100%;
+              height: 50%;
+            }
+            .rsidepart5{
+                width: 100%;
+                height: 50%;
+            }
+            .lsidepart6{
+                width: 100%;
+                height: 50%;
+            }
+            .heading{
+                color: white;
+                font-size:25px;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+            .para1{
+                color: white;
+                font-size: 12px;
+            }
+            .parasmall{
+                color: white;
+                font-size: 11px;
+            }
+            .heading2{
+                color: white;
+                font-size:14px;
+                letter-spacing: 1px;
+                padding-bottom: 8px;
+            }
+            .section2{
+                display: inline-block;
+            }
+            
+      }
